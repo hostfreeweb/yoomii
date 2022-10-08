@@ -11,10 +11,9 @@
 	<form method="post" action="y.php">
 	<h1></h1>
 		<p>Enter mobile namber </p><br><br>
-		<input type="text" name="mobile" placeholder="Enter mobile number" minlength="4" maxlength="8"
-      pattern="[0-9]{8}" required><br><br>
+		<input type="text" name="Mobile_no" placeholder="Enter mobile number" minlength="10" maxlength="12" pattern="[0-9]{10}" required><br><br>
 		
-		<input type="submit" name="Submit" value="Submit"><br><br>
+		<input type="submit"><br><br>
 
 		<center><p>OR</p></center><br><br>
 
